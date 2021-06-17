@@ -1,13 +1,45 @@
 [
    {
-      "id":662,
-      "question":"Which command can give first found difference between two file after comparing?",
+      "id":292,
+      "question":"What is the highest privilege user in Wordpress?",
       "description":null,
       "answers":{
-         "answer_a":"diff",
-         "answer_b":"cmp",
-         "answer_c":"Common",
-         "answer_d":"stat",
+         "answer_a":"Contributer",
+         "answer_b":"Author",
+         "answer_c":"Editor",
+         "answer_d":"Administrator",
+         "answer_e":null,
+         "answer_f":null
+      },
+      "multiple_correct_answers":"false",
+      "correct_answers":{
+         "answer_a_correct":"false",
+         "answer_b_correct":"false",
+         "answer_c_correct":"false",
+         "answer_d_correct":"true",
+         "answer_e_correct":"false",
+         "answer_f_correct":"false"
+      },
+      "correct_answer":"answer_a",
+      "explanation":null,
+      "tip":null,
+      "tags":[
+         {
+            "name":"WordPress"
+         }
+      ],
+      "category":"CMS",
+      "difficulty":"Easy"
+   },
+   {
+      "id":794,
+      "question":"What is containerization?",
+      "description":null,
+      "answers":{
+         "answer_a":"system that is being developed and deployed is bundled and wrapped separately with all its configuration files and dependencies. This bundle is called a container.",
+         "answer_b":"an application that is being developed and deployed is bundled and wrapped together with all its configuration files and dependencies. This bundle is called a container.",
+         "answer_c":null,
+         "answer_d":null,
          "answer_e":null,
          "answer_f":null
       },
@@ -25,28 +57,28 @@
       "tip":null,
       "tags":[
          {
-            "name":"BASH"
+            "name":"Docker"
          }
       ],
-      "category":"Linux",
+      "category":"Docker",
       "difficulty":"Easy"
    },
    {
-      "id":665,
-      "question":"Choose the correct usage of \u2018cd\u2019 to move into the parent directory.",
+      "id":497,
+      "question":"Which of the following attribute is used to group elements?",
       "description":null,
       "answers":{
-         "answer_a":"cd",
-         "answer_b":"cd ..",
-         "answer_c":"cd .",
-         "answer_d":"cd\/",
-         "answer_e":"None of the above",
-         "answer_f":"cd.."
+         "answer_a":"item",
+         "answer_b":"itemgroup",
+         "answer_c":"itemcheck",
+         "answer_d":"itemprop",
+         "answer_e":null,
+         "answer_f":null
       },
       "multiple_correct_answers":"false",
       "correct_answers":{
-         "answer_a_correct":"false",
-         "answer_b_correct":"true",
+         "answer_a_correct":"true",
+         "answer_b_correct":"false",
          "answer_c_correct":"false",
          "answer_d_correct":"false",
          "answer_e_correct":"false",
@@ -57,84 +89,84 @@
       "tip":null,
       "tags":[
          {
-            "name":"BASH"
+            "name":"HTML"
          }
       ],
-      "category":"Linux",
+      "category":"Code",
       "difficulty":"Easy"
    },
    {
-      "id":1075,
-      "question":"In which file, can we permanently change the SWAP priority",
+      "id":994,
+      "question":"How do you declare a JavaScript variable?",
       "description":null,
       "answers":{
-         "answer_a":"\/etc\/fstab",
-         "answer_b":"\/etc\/prswap",
-         "answer_c":"\/etc\/swappriority",
-         "answer_d":"\/etc\/boot.conf",
+         "answer_a":"v carName;",
+         "answer_b":"variable carName;",
+         "answer_c":"var carName;",
+         "answer_d":null,
          "answer_e":null,
          "answer_f":null
       },
       "multiple_correct_answers":"false",
       "correct_answers":{
-         "answer_a_correct":"true",
+         "answer_a_correct":"false",
          "answer_b_correct":"false",
-         "answer_c_correct":"false",
+         "answer_c_correct":"true",
          "answer_d_correct":"false",
          "answer_e_correct":"false",
          "answer_f_correct":"false"
       },
-      "correct_answer":null,
+      "correct_answer":"answer_a",
       "explanation":null,
       "tip":null,
       "tags":[
          {
-            "name":"Linux"
+            "name":"JavaScript"
          }
       ],
-      "category":"Linux",
+      "category":"Code",
       "difficulty":"Easy"
    },
    {
-      "id":1081,
-      "question":"Where are the online repositories configured on a Debian\/Ubuntu Machine",
+      "id":565,
+      "question":"Which of the following variables is not a predefined variable?",
       "description":null,
       "answers":{
-         "answer_a":"\/etc\/apt\/sources.list",
-         "answer_b":"\/etc\/apt\/yum.repos",
-         "answer_c":"\/etc\/fstab",
-         "answer_d":"\/etc\/apt\/repos",
+         "answer_a":"$get",
+         "answer_b":".$post",
+         "answer_c":"$request",
+         "answer_d":"$ask",
          "answer_e":null,
          "answer_f":null
       },
       "multiple_correct_answers":"false",
       "correct_answers":{
-         "answer_a_correct":"true",
+         "answer_a_correct":"false",
          "answer_b_correct":"false",
          "answer_c_correct":"false",
-         "answer_d_correct":"false",
+         "answer_d_correct":"true",
          "answer_e_correct":"false",
          "answer_f_correct":"false"
       },
-      "correct_answer":null,
+      "correct_answer":"answer_a",
       "explanation":null,
       "tip":null,
       "tags":[
          {
-            "name":"Linux"
+            "name":"PHP"
          }
       ],
-      "category":"Linux",
+      "category":"Code",
       "difficulty":"Easy"
    },
    {
-      "id":823,
-      "question":"BASH stands for:",
+      "id":887,
+      "question":"What are Docker objects?",
       "description":null,
       "answers":{
-         "answer_a":"Bourne Again SHell",
-         "answer_b":"BAsic SHell",
-         "answer_c":"Basic Async SHell",
+         "answer_a":"Docker images, containers and services",
+         "answer_b":"Files, Plugins and Base",
+         "answer_c":"Code, Databases and Local storage",
          "answer_d":null,
          "answer_e":null,
          "answer_f":null
@@ -153,54 +185,22 @@
       "tip":null,
       "tags":[
          {
-            "name":"BASH"
+            "name":"Docker"
          }
       ],
-      "category":"Linux",
+      "category":"Docker",
       "difficulty":"Easy"
    },
    {
-      "id":14,
-      "question":"What command is used to clear up the command prompt window?",
+      "id":1036,
+      "question":"Which command will you use to check your Ansible version?",
       "description":null,
       "answers":{
-         "answer_a":"clearit",
-         "answer_b":"clrwin",
-         "answer_c":"clear",
-         "answer_d":"clrscr",
+         "answer_a":"ansible-ctl --version",
+         "answer_b":"ansible --version",
+         "answer_c":"ansible v",
+         "answer_d":"ansiblectl v",
          "answer_e":null,
-         "answer_f":null
-      },
-      "multiple_correct_answers":"false",
-      "correct_answers":{
-         "answer_a_correct":"false",
-         "answer_b_correct":"false",
-         "answer_c_correct":"true",
-         "answer_d_correct":"false",
-         "answer_e_correct":"false",
-         "answer_f_correct":"false"
-      },
-      "correct_answer":"answer_c",
-      "explanation":null,
-      "tip":null,
-      "tags":[
-         {
-            "name":"Linux"
-         }
-      ],
-      "category":"Linux",
-      "difficulty":"Easy"
-   },
-   {
-      "id":7,
-      "question":"How do we change permissions on files",
-      "description":null,
-      "answers":{
-         "answer_a":"chown",
-         "answer_b":"chmod",
-         "answer_c":"chattr",
-         "answer_d":"lsattr",
-         "answer_e":"We Can't change them",
          "answer_f":null
       },
       "multiple_correct_answers":"false",
@@ -217,24 +217,53 @@
       "tip":null,
       "tags":[
          {
-            "name":"Linux"
-         },
-         {
-            "name":"BASH"
+            "name":"DevOps"
          }
       ],
-      "category":"Linux",
+      "category":"DevOps",
       "difficulty":"Easy"
    },
    {
-      "id":739,
-      "question":"How to dump pod logs (stdout) in Kubernetes?",
+      "id":81,
+      "question":"The if statement is used to execute some code only if a specified condition is true",
       "description":null,
       "answers":{
-         "answer_a":"kubectl log my-pod",
-         "answer_b":"kubectl pod logs my-pod",
-         "answer_c":"kubectl logs my-pod",
-         "answer_d":"kubectl pods logs my-pod",
+         "answer_a":"True",
+         "answer_b":"False",
+         "answer_c":null,
+         "answer_d":null,
+         "answer_e":null,
+         "answer_f":null
+      },
+      "multiple_correct_answers":"false",
+      "correct_answers":{
+         "answer_a_correct":"true",
+         "answer_b_correct":"false",
+         "answer_c_correct":"false",
+         "answer_d_correct":"false",
+         "answer_e_correct":"false",
+         "answer_f_correct":"false"
+      },
+      "correct_answer":"answer_a",
+      "explanation":null,
+      "tip":null,
+      "tags":[
+         {
+            "name":"PHP"
+         }
+      ],
+      "category":"",
+      "difficulty":"Easy"
+   },
+   {
+      "id":804,
+      "question":"Suppose you have 3 containers running and out of these, you wish to access one of them. How do you access a running container?",
+      "description":null,
+      "answers":{
+         "answer_a":"$ docker exec it <container id> bash",
+         "answer_b":"$ docker exec --it <container id>",
+         "answer_c":"$ docker exec -it <container id> bash",
+         "answer_d":null,
          "answer_e":null,
          "answer_f":null
       },
@@ -247,79 +276,47 @@
          "answer_e_correct":"false",
          "answer_f_correct":"false"
       },
+      "correct_answer":null,
+      "explanation":null,
+      "tip":null,
+      "tags":[
+         {
+            "name":"Docker"
+         }
+      ],
+      "category":"Docker",
+      "difficulty":"Easy"
+   },
+   {
+      "id":988,
+      "question":"How do you round the number 7.25, to the nearest integer?",
+      "description":null,
+      "answers":{
+         "answer_a":"Math.round(7.25)",
+         "answer_b":"round(7.25)",
+         "answer_c":"rnd(7.25)",
+         "answer_d":"Math.rnd(7.25)",
+         "answer_e":null,
+         "answer_f":null
+      },
+      "multiple_correct_answers":"false",
+      "correct_answers":{
+         "answer_a_correct":"true",
+         "answer_b_correct":"false",
+         "answer_c_correct":"false",
+         "answer_d_correct":"false",
+         "answer_e_correct":"false",
+         "answer_f_correct":"false"
+      },
       "correct_answer":"answer_a",
       "explanation":null,
       "tip":null,
       "tags":[
          {
-            "name":"Kubernetes"
+            "name":"JavaScript"
          }
       ],
-      "category":"Linux",
-      "difficulty":"Easy"
-   },
-   {
-      "id":691,
-      "question":"Which operator can be used to throw a process into background?",
-      "description":null,
-      "answers":{
-         "answer_a":"&",
-         "answer_b":"&&",
-         "answer_c":"|",
-         "answer_d":"||",
-         "answer_e":null,
-         "answer_f":null
-      },
-      "multiple_correct_answers":"false",
-      "correct_answers":{
-         "answer_a_correct":"true",
-         "answer_b_correct":"false",
-         "answer_c_correct":"false",
-         "answer_d_correct":"false",
-         "answer_e_correct":"false",
-         "answer_f_correct":"false"
-      },
-      "correct_answer":null,
-      "explanation":null,
-      "tip":null,
-      "tags":[
-         {
-            "name":"BASH"
-         }
-      ],
-      "category":"Linux",
-      "difficulty":"Easy"
-   },
-   {
-      "id":702,
-      "question":"Which command can be used to display basic information about your server?",
-      "description":null,
-      "answers":{
-         "answer_a":"uname",
-         "answer_b":"info",
-         "answer_c":"ls",
-         "answer_d":"show",
-         "answer_e":null,
-         "answer_f":null
-      },
-      "multiple_correct_answers":"false",
-      "correct_answers":{
-         "answer_a_correct":"true",
-         "answer_b_correct":"false",
-         "answer_c_correct":"false",
-         "answer_d_correct":"false",
-         "answer_e_correct":"false",
-         "answer_f_correct":"false"
-      },
-      "correct_answer":null,
-      "explanation":null,
-      "tip":null,
-      "tags":[
-         {
-            "name":"Linux"
-         }
-      ],
-      "category":"Linux",
+      "category":"Code",
       "difficulty":"Easy"
    }
 ]
