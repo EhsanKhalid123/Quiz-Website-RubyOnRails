@@ -2,7 +2,11 @@
 <div class="center jumbotron">
  <h2 style="font-size: 35px; color: black;" >Welcome to Quiz+</h2>
 
-  <% if @data.sample(4)  %>
+  <% if @data == @data.sample  %>
+    <p>You answered 4/<%= @data.length %> questions correctly </p>
+    <p><%= link_to "Reload", root_path, class: "btn btn-lg btn-primary" %></p>
+
+  <% else %>
     <p style="font-size: 20px; color: green; font-weight: bold;"><%= @data[0]['question'] %></p>
 
     <input type="radio" name="<%= @data[0]['question'] %>" value="<%= @data[0]["answers"]["answer_a"] %>">
@@ -25,10 +29,6 @@
 
      <p><%= link_to "Submit", '#', class: "btn btn-lg btn-primary" %></p>
 
-     <p>You answered 4/<%= @data.length %> questions correctly </p>
-
-  <% else %>
-    <p>You answered 4/<%= @data.length %> questions correctly </p>
   <% end %>
 
 
