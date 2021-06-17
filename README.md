@@ -7,7 +7,8 @@
 * Heroku Deployment Url:  https://dry-headland-20553.herokuapp.com/
 
 * Last Heroku Deployment Log:
-*Counting objects: 4, done.
+
+* Counting objects: 4, done.
 Compressing objects: 100% (4/4), done.
 Writing objects: 100% (4/4), 2.74 KiB | 1.37 MiB/s, done.
 Total 4 (delta 3), reused 0 (delta 0)
