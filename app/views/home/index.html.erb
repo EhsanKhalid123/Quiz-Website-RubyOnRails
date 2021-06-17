@@ -2,25 +2,35 @@
 <div class="center jumbotron">
  <h2 style="font-size: 35px; color: black;" >Welcome to Quiz+</h2>
 
-<p style="font-size: 20px; color: green; font-weight: bold;"><%= @data["question"] %></p>
+  <% if @data.sample(4)  %>
+    <p style="font-size: 20px; color: green; font-weight: bold;"><%= @data[0]['question'] %></p>
 
-    <input type="radio" name="<%= @data["question"] %>" value="<%= @data["answers"]["answer_a"] %>">
-    <label ><%= @data["answers"]["answer_a"] %></label><br>
-    <input type="radio" name="<%= @data["question"] %>" value="<%= @data["answers"]["answer_b"] %>">
-    <label ><%= @data["answers"]["answer_b"] %></label><br>
-    <input type="radio" name="<%= @data["question"] %>" value="<%= @data["answers"]["answer_c"] %>">
-    <label ><%= @data["answers"]["answer_c"] %></label><br>
-    <input type="radio" name="<%= @data["question"] %>" value="<%= @data["answers"]["answer_d"] %>">
-    <label ><%= @data["answers"]["answer_d"] %></label><br>
-    <input type="radio" name="<%= @data["question"] %>" value="<%= @data["answers"]["answer_e"] %>">
-    <label ><%= @data["answers"]["answer_e"] %></label><br>
-    <input type="radio" name="<%= @data["question"] %>" value="<%= @data["answers"]["answer_f"] %>">
-    <label ><%= @data["answers"]["answer_f"] %></label><br><br>
- <p><%= link_to "Submit", '#', class: "btn btn-lg btn-primary" %></p>
+    <input type="radio" name="<%= @data[0]['question'] %>" value="<%= @data[0]["answers"]["answer_a"] %>">
+    <label ><%= @data[0]['answers']['answer_a'] %></label><br>
 
- <%# if radio.name %>
+    <input type="radio" name="<%= @data[0]["question"] %>" value="<%= @data[0]["answers"]["answer_b"] %>">
+    <label ><%= @data[0]["answers"]["answer_b"] %></label><br>
 
- <%# end %>
+    <input type="radio" name="<%= @data[0]["question"] %>" value="<%= @data[0]["answers"]["answer_c"] %>">
+    <label ><%= @data[0]["answers"]["answer_c"] %></label><br>
+
+    <input type="radio" name="<%= @data[0]["question"] %>" value="<%= @data[0]["answers"]["answer_d"] %>">
+    <label ><%= @data[0]["answers"]["answer_d"] %></label><br>
+
+    <input type="radio" name="<%= @data[0]["question"] %>" value="<%= @data[0]["answers"]["answer_e"] %>">
+    <label ><%= @data[0]["answers"]["answer_e"] %></label><br>
+
+    <input type="radio" name="<%= @data[0]["question"] %>" value="<%= @data[0]["answers"]["answer_f"] %>">
+    <label ><%= @data[0]["answers"]["answer_f"] %></label><br><br>
+
+     <p><%= link_to "Submit", '#', class: "btn btn-lg btn-primary" %></p>
+
+     <p>You answered 4/<%= @data.length %> questions correctly </p>
+
+  <% else %>
+    <p>You answered 4/<%= @data.length %> questions correctly </p>
+  <% end %>
+
 
 </div>
 
