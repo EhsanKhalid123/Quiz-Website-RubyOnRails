@@ -2,7 +2,7 @@
 
 * Level Attempted: Pass Level
 
-* Quiz API KEY: AFsmwFewlkDsGwHOUmYBfvix1U4E0igtjMUr6oja
+* Quiz API KEY: 
 
 * Heroku Deployment Url:  https://dry-headland-20553.herokuapp.com/
 
