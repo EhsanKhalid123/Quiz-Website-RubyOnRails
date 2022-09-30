@@ -1,6 +1,4 @@
-* Ehsan Khalid (s3838975)
-
-* Level Attempted: Pass Level
+* By Ehsan Khalid
 
 * Quiz API KEY: 
 
